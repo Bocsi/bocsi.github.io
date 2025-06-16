@@ -1,0 +1,88 @@
+main{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 3fr 3fr 3fr 1fr;
+    gap: 20px;
+}
+main, footer, header{
+    margin: 20px;
+}
+#ketto{
+    grid-row-start: 2;
+}
+#harom{
+    grid-row-start: 3;
+}
+aside{
+    grid-column-start: 2;
+    grid-row: span 3 / span 4;
+    border: 5px solid blue;
+}
+aside>h1{
+    color: rgb(75, 75, 226);
+    text-shadow: 2px 2px 10px rgb(174, 146, 252);
+    text-decoration: underline red 5px;
+    text-align: center;
+}
+aside img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    border: solid 5px black;
+}
+aside>p{
+    font-family: sans-serif;
+    font-size: large;
+    color: red;
+    margin: 10px;
+}
+footer{
+    grid-row-start: 4;
+    grid-column: span 2 / span 2;
+    text-align: center;
+}
+main div h4{
+    margin-top: 5px;
+}
+header{
+    margin-bottom: 0px;
+}
+header h1{
+    text-align: center;
+    color: rgb(75, 75, 226);
+    text-shadow: 2px 2px 10px rgb(174, 146, 252);
+    text-decoration: underline red 5px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+header> h2{
+    color: rgb(75, 75, 226);
+    text-shadow: 2px 2px 10px rgb(174, 146, 252);
+    text-decoration: underline red 2px;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgb(255, 255, 255), rgb(139, 153, 233)) no-repeat;
+    min-height: 100vh;
+}
+#vezeto{
+    border: 6px blue solid;
+    padding: 7px;
+}
+#vezeto h4{
+    font-size: 20px;
+    color: rgb(75, 75, 226);
+    text-shadow: 2px 2px 10px rgb(174, 146, 252);
+    text-decoration: underline red 2px;
+}
+#ketto h4, #harom h4{
+    font-size: 20px;
+}
+#ár{
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
