@@ -28,7 +28,7 @@ aside img{
     display: block;
     margin: 0 auto;
     margin-top: 70px;
-    border: solid 5px black;
+    border: solid 5px blue;
 }
 aside>p{
     font-family: sans-serif;
