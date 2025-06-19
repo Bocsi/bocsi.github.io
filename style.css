@@ -86,3 +86,14 @@ body{
     color: red;
     margin-top: 10px;
 }
+address a{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+address a:hover{
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 20px rgb(253, 25, 25);
+}
